@@ -33,3 +33,5 @@ dist-ssr
 ehthumbs.db
 Thumbs.db
 .dccache
+
+.env
