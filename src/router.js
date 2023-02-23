@@ -5,7 +5,7 @@ const { isAuthenticated } = useAuth()
 
 import MainPage from '@/components/MainPage.vue'
 import loginPage from '@/components/loginPage.vue'
-import SettingsPage from '@/components/SettingsPage.vue'
+import settingsPage from '@/components/settingsPage.vue'
 import NotFound from '@/components/NotFound.vue'
 
 const routes = [
