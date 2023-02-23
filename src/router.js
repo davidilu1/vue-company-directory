@@ -11,8 +11,8 @@ import NotFound from '@/components/NotFound.vue'
 
 const routes = [
     { path: '/', name: 'Home', component: MainPage },
-    { path: '/login', name: 'Login', component: LoginPage },
-    { path: '/settings', name: 'Settings', component: SettingsPage, meta: { requiresAuth: true } },
+    { path: '/Login', name: 'Login', component: LoginPage },
+    { path: '/Settings', name: 'Settings', component: SettingsPage, meta: { requiresAuth: true } },
     { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
 ]
 
